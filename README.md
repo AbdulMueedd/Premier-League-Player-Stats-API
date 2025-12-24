@@ -39,7 +39,6 @@ POST /api/v1/player
 ### Update a player
 PUT /api/v1/player
 
-### Delete a player
 
 Access the API:
 http://localhost:8080/api/v1/player
