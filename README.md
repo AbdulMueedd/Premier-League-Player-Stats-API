@@ -39,7 +39,16 @@ POST /api/v1/player
 ### Update a player
 PUT /api/v1/player
 
+### Configure application.properties:
+spring.application.name=primer league
+spring.datasource.url=jdbc:postgresql://localhost:5440/prem_stats
+spring.datasource.username=postgres
+spring.datasource.password=--------
+spring.jpa.hibernate.ddl-auto=validate
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.format_sql=true
 
-Access the API:
+### Access the API:
 http://localhost:8080/api/v1/player
 
